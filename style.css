@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  width: 60%;
+  height: auto;
+  margin: auto;
+}
+
+.bg-trasp{
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 20px;
+}
+
+header,main{
+  margin-bottom: 10px;
+}
+
+li{
+  display: inline;
+  list-style: none;
+  margin-right: 5px;
+}
+li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+li:hover{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#logo{
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.main-banner{
+  height: 400px;
+  margin-bottom: 10px;
+  background-image: url("img/banner.jpg");
+  background-size: auto;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.banner-text{
+  width: 50%;
+  position: absolute;
+  bottom: 50px;
+  left: 30px;
+  color: white;
+}
+
+.main-head{
+  margin: 20px 0;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.margin-div{
+  width: 20%;
+  float: left;
+}
+
+.center-div{
+  width: 56%;
+  float: left;
+  margin: 0 2%;
+}
+
+.first-element{
+  height: 150px;
+  background-image: url("img/img-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.second-element{
+  height: 150px;
+  background-image: url("img/banner-2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.third-element{
+  height: 150px;
+  background-image: url("img/img-3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.footer-text{
+  text-align: center;
+  margin: 20px;
+}
+
+#footer-heart{
+  font-size: 2em;
+  color: red;
+}
